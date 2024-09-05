@@ -1,0 +1,8 @@
+{
+  "DEFAULT_FEE": 1000,
+  "DEFAULT_NETWORK": {
+    "prefix": "karlsendev",
+    "description": "Devnet",
+    "apiBaseUrl": "https://devnet-api.karlsencoin.com"
+  }
+}

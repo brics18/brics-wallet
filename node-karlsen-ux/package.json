@@ -1,0 +1,21 @@
+{
+  "name": "@karlsen/ux",
+  "version": "1.0.30",
+  "description": "BRICS Wallet User Interface Framework",
+  "main": "karlsen-ux.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karlsen-network/node-karlsen-ux"
+  },
+  "keywords": [],
+  "dependencies": {},
+  "files": [
+    "karlsen-ux.js",
+    "karlsen-ux.css",
+    "src",
+    "README.md",
+    "LICENSE",
+    "resources"
+  ]
+}
