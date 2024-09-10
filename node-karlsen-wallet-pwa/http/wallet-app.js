@@ -52,7 +52,7 @@ class KarlsenWalletApp extends FlowApp {
 	constructor(){
 		super();
 
-		this.networks = ['brics','gortest','gordev','gorsim'];
+		this.networks = ['brics','bricstest','bricsdev','bricssim'];
 		this.network = "brics";
 		this.addresses = {};
 		this.available = {};

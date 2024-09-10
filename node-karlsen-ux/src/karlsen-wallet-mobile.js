@@ -693,7 +693,7 @@ border-radius: 50%;
 		})
 	}
 	showReceiveDialog(){
-		let address = this.receiveAddress||'gortest:abc'
+		let address = this.receiveAddress||'testtest:abc'
 		this.receiveDialog.open({wallet:this, address}, (args)=>{
 			//
 		})
