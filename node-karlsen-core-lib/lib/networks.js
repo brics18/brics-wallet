@@ -51,7 +51,7 @@ function get(arg, keys) {
  * Derives an array from the given prefix to be used in the computation
  * of the address' checksum.
  *
- * @param {string} prefix Network prefix. E.g.: 'gortest'.
+ * @param {string} prefix Network prefix. E.g.: 'bricstest'.
  */
 function prefixToArray(prefix) {
   var result = [];
@@ -225,7 +225,7 @@ var livenet = get('livenet');
 var regtest = get('regtest');
 var testnet = get('testnet');
 
-const karlsenNetworks = ['brics', 'gordev', 'gorreg', 'gortest', 'gorsim'];
+const karlsenNetworks = ['brics', 'bricsdev', 'bricsreg', 'bricstest', 'bricssim'];
 
 karlsenNetworks.map((str) => {
   addNetwork({

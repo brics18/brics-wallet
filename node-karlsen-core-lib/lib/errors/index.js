@@ -48,7 +48,7 @@ karlsencore.Error = function() {
   this.stack = this.message + '\n' + (new Error()).stack;
 };
 karlsencore.Error.prototype = Object.create(Error.prototype);
-karlsencore.Error.prototype.name = 'gorcore.Error';
+karlsencore.Error.prototype.name = 'bricscore.Error';
 
 
 var data = require('./spec');

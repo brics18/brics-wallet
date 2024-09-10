@@ -102,7 +102,7 @@ async.series([
     }
 
     var suite = new benchmark.Suite();
-    suite.add('gorcore', karlsencoreTest, {maxTime: maxTime});
+    suite.add('bricscore', karlsencoreTest, {maxTime: maxTime});
     suite.add('bitcoinjs', bitcoinJSTest, {maxTime: maxTime});
     suite.add('bcoin', bcoinTest, {maxTime: maxTime});
     suite.add('fullnode', fullnodeTest, {maxTime: maxTime});
